@@ -9,11 +9,8 @@ def stepFunction(summation):
 
 def classify(input):
 
-    summation = 0
-    for i in range(len(input)):
-        summation += input[i] * weights[i]
-
-    return stepFunction(summation)
+    s = input.dot(weights)  # dot product  
+    return stepFunction(s)
 
 
 def fit():
