@@ -9,3 +9,12 @@
 	<li> modifying the perceptron weights whenever it misclassifies an example. </li>
 	<li> this process is repeated until the perceptron classifies all training examples correctly.</li>
 </ul>
+
+
+<h4> Basic Convolutional Neural Network </h4>
+
+<ul>
+    <li> Classify as Bart(0) or Homer(1) </li>
+	<li> 2D images </li>
+    <li> Using TensorFlow </li>
+</ul>
